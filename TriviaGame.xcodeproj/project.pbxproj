@@ -13,7 +13,7 @@
 		9F7EE31322E0D87800498951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EE31222E0D87800498951 /* Assets.xcassets */; };
 		9F7EE31622E0D87800498951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EE31422E0D87800498951 /* LaunchScreen.storyboard */; };
 		9F7EE31E22E0F08500498951 /* TriviaGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EE31D22E0F08500498951 /* TriviaGameViewController.swift */; };
-		9F7EE32022E0F23A00498951 /* brainwithglasses.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EE31F22E0F23A00498951 /* brainwithglasses.jpeg */; };
+		9F7EE32222E11A8800498951 /* brainwithglasses.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EE32122E11A8800498951 /* brainwithglasses.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9F7EE31522E0D87800498951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7EE31722E0D87800498951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7EE31D22E0F08500498951 /* TriviaGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGameViewController.swift; sourceTree = "<group>"; };
-		9F7EE31F22E0F23A00498951 /* brainwithglasses.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = brainwithglasses.jpeg; path = ../../../../brainwithglasses.jpeg; sourceTree = "<group>"; };
+		9F7EE32122E11A8800498951 /* brainwithglasses.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = brainwithglasses.jpeg; path = "../../../../Cool Pics/brainwithglasses.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				9F7EE31222E0D87800498951 /* Assets.xcassets */,
 				9F7EE31422E0D87800498951 /* LaunchScreen.storyboard */,
 				9F7EE31722E0D87800498951 /* Info.plist */,
-				9F7EE31F22E0F23A00498951 /* brainwithglasses.jpeg */,
+				9F7EE32122E11A8800498951 /* brainwithglasses.jpeg */,
 			);
 			path = TriviaGame;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 				9F7EE31622E0D87800498951 /* LaunchScreen.storyboard in Resources */,
 				9F7EE31322E0D87800498951 /* Assets.xcassets in Resources */,
 				9F7EE31122E0D87700498951 /* Main.storyboard in Resources */,
-				9F7EE32022E0F23A00498951 /* brainwithglasses.jpeg in Resources */,
+				9F7EE32222E11A8800498951 /* brainwithglasses.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
