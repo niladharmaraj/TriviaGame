@@ -18,6 +18,7 @@ class TriviaGameViewController: UIViewController {
     @IBAction func textFieldEnter(_ sender: Any) {
         processAnswer ()
     }
+    @IBOutlet weak var answerSwitch: UISwitch!
     @IBOutlet weak var endOfGameMessage: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var userAnswerTextField: UITextField!
@@ -45,8 +46,12 @@ class TriviaGameViewController: UIViewController {
             validationLabel.text = "Good job! You got the right answer!"
             score += 1
         } else {
-            validationLabel.text = "Sorry, that was incorrect. The correct answer is \(correctAnswer)"
-        }
+            if(answerSwitch.isOn) {
+                validationLabel.text = "Sorry, that was incorrect. The correct answer is \(correctAnswer)"
+            } else {
+                validationLabel.text = "Sorry, that was incorrect."
+            }
+            }
         currQ += 1
         if (currQ >= questions.count) {
             if (score > questions.count/2) {

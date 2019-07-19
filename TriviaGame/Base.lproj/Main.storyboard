@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TriviaNight" translatesAutoresizingMaskIntoConstraints="NO" id="peC-wx-m9w">
-                                <rect key="frame" x="0.0" y="44" width="414" height="219"/>
+                                <rect key="frame" x="0.0" y="44" width="430" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spur IQ Icon Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3dy-6T-RVu">
@@ -78,11 +78,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trivianeonnight" translatesAutoresizingMaskIntoConstraints="NO" id="sAb-05-ged">
-                                <rect key="frame" x="166" y="658" width="240" height="128"/>
+                                <rect key="frame" x="-32" y="734" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulbtrivianight" translatesAutoresizingMaskIntoConstraints="NO" id="oAW-rY-sF9">
-                                <rect key="frame" x="166" y="750" width="240" height="128"/>
+                                <rect key="frame" x="154" y="734" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5G-bF-vgX">
@@ -93,7 +93,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGM-qs-S0S">
-                                <rect key="frame" x="20" y="482" width="374" height="101"/>
+                                <rect key="frame" x="20" y="523" width="374" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
                                 <color key="textColor" red="0.69019607839999997" green="1" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -122,14 +122,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dr-Hs-CcI">
-                                <rect key="frame" x="20" y="578" width="374" height="94"/>
+                                <rect key="frame" x="20" y="632" width="374" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
                                 <color key="textColor" red="0.69019607839999997" green="1" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCK-oD-cFk">
-                                <rect key="frame" x="20" y="841" width="374" height="25"/>
+                                <rect key="frame" x="20" y="861" width="374" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
                                 <color key="textColor" red="0.69019607839999997" green="1" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -146,11 +146,23 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="FbG-3l-XVU"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZ0-vv-SCy">
+                                <rect key="frame" x="352" y="484" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show answers if I get it wrong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6D3-UX-m17">
+                                <rect key="frame" x="20" y="488" width="305" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
+                                <color key="textColor" red="0.69019607839999997" green="1" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="XSj-LP-o3d"/>
                     </view>
                     <connections>
+                        <outlet property="answerSwitch" destination="gZ0-vv-SCy" id="sVi-xd-nUt"/>
                         <outlet property="endOfGameMessage" destination="6Dr-Hs-CcI" id="TWy-pi-bsE"/>
                         <outlet property="questionLabel" destination="Z5G-bF-vgX" id="Xj2-ki-SBH"/>
                         <outlet property="scoreLabel" destination="pCK-oD-cFk" id="OEK-V2-vd4"/>
